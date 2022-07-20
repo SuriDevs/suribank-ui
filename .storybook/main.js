@@ -18,11 +18,4 @@ module.exports = {
   "core": {
     "builder": "@storybook/builder-webpack5"
   },
-  typescript: {
-    reactDocgen: false
-  },
-  features: {
-    interactionsDebugger: true,
-  },
-  webpackFinal,
 }

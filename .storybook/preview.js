@@ -6,6 +6,4 @@ export const parameters = {
       date: /Date$/,
     },
   },
-  backgrounds,
-  options,
 }
