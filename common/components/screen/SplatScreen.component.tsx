@@ -1,10 +1,10 @@
-import { Box, Stack, Typography } from '@mui/material';
 import type { FunctionComponent } from 'react';
+import type { SplatScreenProps } from './SplatScreen.interface';
+import { Box, Stack, Typography } from '@mui/material';
 import Image from 'next/image';
-import { SplatScreenProps } from './SplatScreen.interface';
+import SuriPorco from '../../../public/images/bro.png';
 
 export const SplatScreen: FunctionComponent<SplatScreenProps> = ({
-  imgSrc,
   title,
   description,
 }) => {
@@ -22,7 +22,7 @@ export const SplatScreen: FunctionComponent<SplatScreenProps> = ({
         {description}
       </Typography>
       <Box marginTop="6px">
-        <Image alt="SuriPorco" src={imgSrc} width={245} height={239} />
+        <Image alt="SuriPorco" src={SuriPorco} width={245} height={239} />
       </Box>
     </Stack>
   );

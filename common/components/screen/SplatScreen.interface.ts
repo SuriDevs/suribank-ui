@@ -1,8 +1,4 @@
 export interface SplatScreenProps {
-  /**
-   * Determina o src da imagem principal
-   */
-  imgSrc: string;
 
   /**
    * Determina o titulo a ser exibido
